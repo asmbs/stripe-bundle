@@ -1,0 +1,21 @@
+{
+    "name": "asmbs/stripe-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony bundle wrapping the Stripe PHP SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Tucker",
+            "email": "kyleatucker@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "stripe/stripe-php": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ASMBS\\Bundle\\StripeBundle\\": "src/"
+        }
+    }
+}
